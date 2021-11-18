@@ -76,7 +76,7 @@ func GetOptions(protocol string) map[string]string {
 	if protocol == "http" {
 		options["Port"] = "80"
 	} else {
-		options["Port"] = "443"
+		options["Port"] = "4098"
 	}
 
 	//options["Protocol"] = protocol
