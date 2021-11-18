@@ -70,7 +70,7 @@ func init() {
 func GetOptions() map[string]string {
 	options := make(map[string]string)
 	options["Interface"] = "127.0.0.1"
-	options["Port"] = "443"
+	options["Port"] = "4098"
 	options["PSK"] = "merlin"
 	options["URLS"] = "/"
 	options["X509Cert"] = filepath.Join(core.CurrentDir, "data", "x509", "server.crt")
